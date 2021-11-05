@@ -1,0 +1,65 @@
+body {
+    font-family: 'Ceviche One', cursive;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.actions a {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #f0c516;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC
+}
+/* This is a comment in CSS. */
+
+/*/
+    Hide the element where id = "assets".
+    Everything contained inside that element is also hidden.
+/*/
+#assets {
+    display: none;
+}
+
+/*/
+    Make things in element with id = items
+    flow left to right instead of top to bottom
+/*/
+#items {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*/
+    Make things in element with id = menu
+    flow left to right instead of top to bottom
+/*/
+#menu {
+    display: flex;
+    margin: 0 auto;
+}
+
+/*/
+    Images in figures can only be 64 pixels tall
+/*/
+figure.item img {
+    height: 64px;
+    vertical-align: top;
+}
+
+/*/
+    Captions in figures has a blue border
+/*/
+figure.item figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
